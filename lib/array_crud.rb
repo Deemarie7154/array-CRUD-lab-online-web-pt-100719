@@ -17,8 +17,11 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  array = []
-  array.pop()
+array = [1,2,3,4,5,6]
+ array.pop
+end
+
+remove_element_from_end_of_array()
 
  end
 
